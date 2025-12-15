@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.1.0](https://github.com/thefuturrjfhejh/terraform-provider-archestra/compare/v0.0.5...v0.1.0) (2025-12-15)
+
+
+### Features
+
+* add `archestra_mcp_server` Resource ([#15](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/15)) ([8528aba](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/8528aba32a1f5bf207204f2fad37fe860a591c10))
+* add `labels` to `archestra_agent` resource ([#12](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/12)) ([acf2847](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/acf28476cfbee55cdae551383c60bc4ec9de972e))
+* Add cost-saving resources for token pricing, limits, and optimization ([#22](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/22)) ([8129190](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/81291907126fdfdc163a91f2821976cf84a078aa))
+* Archestra Terraform provider (hello world) ([#1](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/1)) ([e1ff1e4](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/e1ff1e482d93bfa4562c0eeb2bcc5d311fe09fae))
+* rename agent to profile with StateMover migration ([e50fb2d](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/e50fb2d6009c7b174af5a8ab31bea2576ec56af3))
+
+
+### Bug Fixes
+
+* add retry mechanism for async tool assignment in agent_tool data source ([#33](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/33)) ([b41c866](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/b41c866aeef0bbd62b7120be63c155f48338527a))
+* outstanding provider issues ([#7](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/7)) ([c33e1ec](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/c33e1ec1160976dce6434a4866594c066e9d0162))
+
+
+### Documentation
+
+* improve/clarify resource argument documentation + remove `is_default` + `is_demo` from agent resource ([#9](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/9)) ([16fa690](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/16fa69009ea967376a2a14c2b6dc51dcc3dcec41))
+* remove `is_demo` and `is_default` from `archestra_agent` example ([147a05e](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/147a05eb123f36c0f989ba44629dc08b1f1d6202))
+
+
+### Dependencies
+
+* **terraform:** bump the terraform-go-dependencies group with 2 updates ([#24](https://github.com/thefuturrjfhejh/terraform-provider-archestra/issues/24)) ([a9c3e85](https://github.com/thefuturrjfhejh/terraform-provider-archestra/commit/a9c3e8556e0335e6a297f8f01580d21e9827cfcd))
+
 ## [0.0.5](https://github.com/archestra-ai/terraform-provider-archestra/compare/v0.0.4...v0.0.5) (2025-11-01)
 
 
